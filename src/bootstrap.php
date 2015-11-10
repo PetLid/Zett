@@ -28,3 +28,7 @@ function myAutoloader($class) {
   }
 }
 spl_autoload_register('myAutoloader');
+
+function dump($array) {
+  echo "<pre>" . htmlentities(print_r($array, 1)) . "</pre>";
+}

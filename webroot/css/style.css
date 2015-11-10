@@ -22,28 +22,62 @@ body {
 .site-header {
   position: relative;
   margin-bottom: 40px;
+  background-color: #fff;
 }
 
 .sitetitle {
   position: absolute;
-  top: 6px;
-  left: 130px;
+  top: 0px;
+  left: 100px;
   font-size: 48px;
 }
 
 .siteslogan {
   position: absolute;
-  top: 65px;
-  left: 130px;
+  top: 55px;
+  left: 110px;
   font-style: italic;
   color: #666;
 }
 
 .sitelogo{
-    max-width: 100px;
+    max-width: 80px;
     border-radius: 10px;
 }
 
+/**
+ * Layout for
+  navbar
+ */
+.navbar {
+    display:block;
+    background-color:#555;
+    font-family:Verdana;
+    padding:0.2em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: table;
+    table-layout: fixed;
+    text-align: justify;
+    width: 100%;
+}
+
+.navbar a {
+    background-color:#ccc;
+    color:#fff;
+    padding:0.2em;
+    text-align: center;
+    text-decoration:none;
+    display: table-cell;
+}
+
+.navbar a:hover {
+    background-color:#aaa;
+}
+
+.navbar .selected {
+    background-color: #999;
+}
 
 /**
  * Layout for main

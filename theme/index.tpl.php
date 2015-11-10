@@ -10,7 +10,7 @@
 </head>
 <body>
   <div id='wrapper' class='site-wrapper'>
-    <div id='header' class='site-header'><?=$header?></div>
+    <div id='header' class='site-header'><?=$header . CNavigation::GenerateMenu($pages, $navbar_class);?></div>
     <div id='main' class='site-main'><?=$main?></div>
     <div id='footer' class='site-footer'><?=$footer?></div>
   </div>

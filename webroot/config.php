@@ -78,6 +78,13 @@ $zett['jquery'] = '//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js';
 $zett['javascript_include'] = array();
 //$zett['javascript_include'] = array('js/main.js'); // To add extra javascript files
 
+$zett['pages'] = array(
+                    array("url" => "hello", "text" => "Start"),
+                    array("url" => "slideshow", "text" => "Slideshow"),
+                    array("url" => "dice", "text" => "dice"),
+                    array("url" => "source", "text" => "View source")
+                );
+$zett['navbar_class'] = "navbar";
 
 /**
  * Google analytics.
